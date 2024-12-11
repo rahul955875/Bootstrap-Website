@@ -221,3 +221,32 @@ button, a{
     max-width: 100%;
     width: 70%;
 }
+/*--------------------carousal section */
+.carousel-inner .card{
+    background-color: #262631;
+    color: var( --main-color);
+    transition: all .2s linear;
+}
+
+.carousel-inner .card p{
+    color: var( --bs-main-color);
+}
+
+.carousel-inner .card:hover{
+    background: var( --main-color);
+    color: var( --dark-color);
+}
+
+.carousel-inner .card:hover p{
+    color: var( --dark-color);
+}
+.carousel-indicators{
+    bottom: -20%;
+}
+
+.carousel-indicators [data-bs-target]{
+    margin-top: 2rem;
+    width: .7rem;
+    height: .7rem;
+    background-color: #1089ff;
+}
