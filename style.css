@@ -16,7 +16,7 @@
     --secondary-color: #29a9fd;
     --pink-color: #C850C0;
 }
-
+/* ---------------comman section------------- */
 h1, h2,h3,h4,h5{
     font-family: 'Lexend Deca', sans-serif;
     color: var( --dark-color);
@@ -71,6 +71,67 @@ a{
     color: var(--secondary-color) !important;
 }
 
+.services-section{
+    padding: 6rem 0 3rem 0!important;
+}
+
+.business-section{
+    padding-top: 3rem;
+}
+
+.btn-primary{
+    background: #1089ff;
+    border: none;
+    outline: none;
+}
+
+.para-width{
+    width: 55ch;
+}
+
+.text-grey{
+    color:#00000080;
+}
+
+.text-light-grey{
+    color:var(--bs-primary-color);
+}
+
+.card-title{
+    font-weight: 500;
+    letter-spacing: .05rem;
+}
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem!important;
+}
+
+.common-title {
+    margin-bottom: 4.2rem;
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.services-section .card-box{
+    padding: 4rem  2.4rem 3rem!important;
+    border-radius: .5rem!important;
+}
+
+button, a{
+    font-size: 1.15rem!important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+
+.btn-dark{
+    background-color: #1a1d20;
+    color: var( --bs-main-color);
+}
+
 /*=================hero section style========= */
 
 .hero-section .container{
@@ -79,7 +140,7 @@ a{
     height: inherit;
 }
 .hero-section h1{
-    font-size: 3.4rem;
+        font-size: 3.4rem;
 }
 
 .hero-section h1:first-letter{
