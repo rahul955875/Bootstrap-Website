@@ -94,7 +94,7 @@ a{
 }
 
 .text-light-grey{
-    color:var(--bs-primary-color);
+    color:var(--primary-color);
 }
 
 .card-title{
@@ -129,7 +129,7 @@ button, a{
 
 .btn-dark{
     background-color: #1a1d20;
-    color: var( --bs-main-color);
+    color: var( --main-color);
 }
 
 /*=================hero section style========= */
@@ -229,7 +229,7 @@ button, a{
 }
 
 .carousel-inner .card p{
-    color: var( --bs-main-color);
+    color: var( --main-color);
 }
 
 .carousel-inner .card:hover{
@@ -250,3 +250,55 @@ button, a{
     height: .7rem;
     background-color: #1089ff;
 }
+/* -------------- */
+.blog-section{
+    padding-bottom: 3rem;
+}
+/* contact section------------ */
+.contact-section{
+    position: relative;
+}
+
+.contact-section .common-title{
+    padding-top: 10rem;
+}
+
+.contact-section .form-section{
+    width: 50%;
+}
+.custom-shape-divider-top-1684211116 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1684211116 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1684211116 .shape-fill {
+    fill: var( --main-color);
+}
+/*footer styling */
+.main-footer-section{
+    padding: 0 0 4rem 0;
+       background-color: #222;
+       color: var( --main-color);
+   }
+   
+   .contact-div{
+       background-color:  var(--dark-primary);
+   }
+   
+   .icon-div{
+       width: 5rem;
+       height: 5rem;
+       /*background: #1089ff;*/
+   }
+   
