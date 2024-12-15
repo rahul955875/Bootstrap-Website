@@ -21,7 +21,21 @@ h1, h2,h3,h4,h5{
     font-family: 'Lexend Deca', sans-serif;
     color: var( --dark-color);
 }
-
+.navbar-toggler-icon {
+    border: 2px solid white;
+    border-radius: 5px;
+    filter: contrast(0.1);
+    /* padding: 5px; */
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+hr{
+    height: 2px;
+}
 h1{
     font-size: 3.8rem;
 }
@@ -45,7 +59,7 @@ a{
 }
 
 .bg-main{
-    height: 80vh;
+    height: 90vh;
     position: relative;
 }
 
@@ -59,7 +73,8 @@ a{
 }
 
 .fa-star{
-    color: var( --supporting-color);
+    color: var( --pink-color);
+    /* color: orange; */
 }
 
 .nav-link{
@@ -67,7 +82,7 @@ a{
     font-weight: bold;
 }
 
-.nav-link:hover{
+.nav-link:hover,.active{
     color: var(--secondary-color) !important;
 }
 
@@ -112,10 +127,6 @@ a{
     margin-bottom: 4.2rem;
 }
 
-.card-box:hover{
-    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
-}
-
 .services-section .card-box{
     padding: 4rem  2.4rem 3rem!important;
     border-radius: .5rem!important;
@@ -137,20 +148,31 @@ button, a{
 .hero-section .container{
     display:grid;
     place-items: center;
-    height: inherit;
+    position: relative;
+}
+    .hero-section .container::after{
+    content: '';
+    width: 5vw;
+    height: 3vh;
+    background-color:var(--dark-color);
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    
+
 }
 .hero-section h1{
-        font-size: 3.4rem;
+    font-size: 3.4rem;
 }
 
 .hero-section h1:first-letter{
     initial-letter: 2;
-    padding-right: .2rem;
+    padding-right: 0.2rem;
     color: var(--secondary-color);
 }
 
 .hero-img-section{
-    width: 30rem;
+    width: 32rem;
     border-radius: 2rem;
 }
 
@@ -158,10 +180,6 @@ button, a{
     background: #1089ff;
     border: none;
     outline: none;
-}
-
-.para-width{
-    width: 55ch;
 }
 
 .text-grey{
@@ -176,11 +194,11 @@ button, a{
 
 .custom-shape-divider-bottom-1684208460 {
     position: absolute;
-    bottom: 0;
+    bottom: -1%;  
     left: 0;
     width: 100%;
     overflow: hidden;
-    line-height: 0;
+    line-height:0;
     transform: rotate(180deg);
 }
 
