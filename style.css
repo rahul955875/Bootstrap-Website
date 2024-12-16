@@ -331,9 +331,13 @@ button, a{
 /* *{
     outline: 2px solid red;
 } */
+.custom-shape-divider-bottom-1684208460 {
+    position: relative;
+    bottom: 0;
+    transform: rotate(180deg)translate(0,-1%)
+}
 .hero-section {
     min-height: max-content;
-    padding-bottom: 120px;
 }
 .hero-img-section{
     width: 20rem;
@@ -360,5 +364,11 @@ body > section.bg-main.bg-color.hero-section > div.container > div{
 
 .contact-section .form-section{
     width: 100%;
+}
+.carousel-indicators {
+    bottom: -7%;
+}
+body > footer > div > div:nth-child(3) > div > div.col-lg-8.col-12{
+    text-align: center;
 }
    }
