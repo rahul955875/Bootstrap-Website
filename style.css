@@ -372,3 +372,14 @@ body > footer > div > div:nth-child(3) > div > div.col-lg-8.col-12{
     text-align: center;
 }
    }
+@media (max-width:998px) {
+    .hero-section {
+        min-height: max-content;
+    }
+    .custom-shape-divider-bottom-1684208460 {
+        position: relative;
+        bottom: 0;
+        transform: rotate(180deg)translate(0,-1%)
+    }
+    
+}
