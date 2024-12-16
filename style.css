@@ -7,7 +7,10 @@
     box-sizing: border-box;
     font-family: "Urbanist", sans-serif;
 }
-
+body{
+    width: 100%;
+    scroll-behavior: smooth;
+}
 :root{
     --dark-color: #1a1d20;
     --dark-primary:#1c1c1c;
@@ -156,8 +159,10 @@ button, a{
     height: 3vh;
     background-color:var(--dark-color);
     position: absolute;
-    right: 0;
+    right: 1%;
+    z-index: 1;
     bottom: 10%;
+    display: none;
     
 
 }
@@ -197,6 +202,7 @@ button, a{
     bottom: -1%;  
     left: 0;
     width: 100%;
+    z-index: 2;
     overflow: hidden;
     line-height:0;
     transform: rotate(180deg);
@@ -233,9 +239,6 @@ button, a{
 }
 
 .more-info-section img{
-    position: absolute;
-    top: -10%;
-    left: 0;
     max-width: 100%;
     width: 70%;
 }
@@ -320,3 +323,42 @@ button, a{
        /*background: #1089ff;*/
    }
    
+
+   /* ------------media section--------------- */
+@media (max-width:576px){
+       
+/*=================hero section style========= */
+/* *{
+    outline: 2px solid red;
+} */
+.hero-section {
+    min-height: max-content;
+    padding-bottom: 120px;
+}
+.hero-img-section{
+    width: 20rem;
+}
+.common-heading {
+    font-size: 1.8rem;
+}
+.hero-section h1:first-letter{
+    initial-letter: 1;
+}
+.hero-section h1 {
+    font-size: 2.4rem;
+}
+body > section.bg-main.bg-color.hero-section > div.container > div{
+    width: 100vw;
+}
+.para-width {
+    width: 100%;
+}
+.more-info-section img{
+    margin: auto;
+    display: block;
+}
+
+.contact-section .form-section{
+    width: 100%;
+}
+   }
